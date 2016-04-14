@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/keyboard_view_top_rl"
+        android:layout_width="match_parent"
+        android:background="@drawable/keyboard_general_nom"
+        android:visibility="visible"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/keyboard_tips_tv"
+            android:text="XXXXXX安全键盘"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_999999"
+            android:drawableLeft="@drawable/safe"
+            android:drawablePadding="5px"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="完成"
+            android:id="@+id/keyboard_view_finish"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_1a98ff"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/color_d8dbdf"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <!-- 普通数字键盘样式 -->
+        <com.xuan.movekeyboard.PpKeyBoardView
+            android:id="@+id/keyboard_view"
+            android:layout_weight="1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/keyboard_blackground"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/btn_keyboard_key"
+            android:keyTextColor="@color/black"
+            android:keyTextSize="28dp"
+            android:labelTextSize="20dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="0.0"
+            android:visibility="gone" />
+        <!-- 字母键盘样式 -->
+        <com.xuan.movekeyboard.PpKeyBoardView
+            android:id="@+id/keyboard_view_abc_sym"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_d8dbdf"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/btn_keyboard_abc_key"
+            android:keyTextColor="@color/color_3c3c3c"
+            android:keyTextSize="20dp"
+            android:keyPreviewLayout="@layout/keyboardd_preview"
+            android:keyPreviewHeight="70dp"
+            android:keyPreviewOffset="-3dp"
+            android:labelTextSize="15dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="0.0"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>
