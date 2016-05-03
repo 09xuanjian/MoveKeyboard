@@ -25,14 +25,12 @@ android 自定义键盘，在页面嵌入的。使用还算简单
         </activity>
 ```
 ###3.代码调用
-* **具体可以参考LoginActivity, 或者 CashOutNewActivity.**
-* 
 * **必要设置方法,在Activity 或者 View 创建的时候，进行设置**
      
      A. 构造方法（必要）
                 
               //Activity,相关界面都是使用这个
-            keyboardUtil = new KeyboardUtil(CashOutNewActivity.this, rootView, sv_main);
+            keyboardUtil = new KeyboardUtil(testActivity.this, rootView, sv_main);
               //弹框类型的
             keyboardUtil = new KeyboardUtil(view,context,rootView,sv_main);
   
@@ -59,7 +57,7 @@ android 自定义键盘，在页面嵌入的。使用还算简单
 		keyboardUtil.setInputOverListener(new InputListener());
 			
 			// 监听变化需要,用于监听点击下一项，完成监听
-	       class InputListener implements com.pmp.ppmoney.util.KeyboardUtil.InputFinishListener {
+	       class InputListener implements KeyboardUtil.InputFinishListener {
 		        @Override
 	 	            public void inputHasOver(int onClickType, EditText editText) {
 	 	                 //监听操作
