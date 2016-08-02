@@ -3,12 +3,86 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bg_default">#f0eff7</color>
 
-    <color name="product_list_bac">#efeef4</color>
-    <color name="keyboard_blackground">#bababa</color>
+    <color name="bg_normal">#f0eff7</color>
+    <color name="bg_login_edt">#ffffff</color>
+    <color name="bg_login_resend">#f8892f</color>
+    <color name="line_common_editText">#cccccc</color>
+    <color name="common_edittext_normal">#0066d6</color>
+    <color name="common_edittext_error">#ff2222</color>
+    <color name="common_edittext_hint_default">#b3b3b3</color>
+    <color name="text_login_forgot_pw">#888888</color>
+
+    <color name="blue_normal">#0066d6</color>
+    <color name="white">#ffffff</color>
     <color name="black">#000</color>
-    <color name="color_3c3c3c">#3c3c3c</color>
-    <color name="color_999999">#999999</color>
-    <color name="color_1a98ff">#1a98ff</color>
-    <color name="color_d8dbdf">#d8dbdf</color>
+    <color name="divider_color_default">#ffa0a0a0</color>
+
+    <!-- Main start -->
+    <color name="main_bottom_tab_textcolor_normal">#979797</color>
+    <color name="main_bottom_tab_textcolor_selected">#0066d6</color>
+
+    <color name="main_top_tab_textcolor_normal">#666666</color>
+    <color name="main_top_tab_textcolor_selected">#0066d6</color>
+
+    <color name="line_title_default">#d1d1d1</color>
+    <color name="line_item_default">#e6e6e6</color>
+
+    <color name="toolbar_bg_white_trans">#aeffffff</color>
+    <!-- Main end -->
+
+    <!-- recyclerview start -->
+    <color name="recyclerview_header_color_default">#9e9e9e</color>
+    <!-- recyclerview end -->
+
+    <color name="color_b9bab9">#b9bab9</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="color_f24340">#f24340</color>
+    <color name="color_ff402D">#ff402D</color>
+    <color name="color_fe3824">#fe3824</color>
+    <color name="color_f93028">#f93028</color>
+    <color name="color_c08029">#c08029</color>
+    <color name="color_478edf">#478edf</color>
+    <color name="color_0076ff">#0076ff</color>
+    <color name="color_0066d6">#0066d6</color>
+    <color name="color_0159ba">#0159ba</color>
+    <color name="color_f2f4ff">#f2f4ff</color>
+    <color name="color_f0eff7">#f0eff7</color>
+    <color name="color_d1d1d1">#d1d1d1</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_43484d">#43484d</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_696969">#696969</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_55ffffff">#55ffffff</color>
+
+
+    <!-- me color start-->
+    <color name="bg_me_top_color">#0066d6</color>
+    <color name="text_me_white_color">#ffffff</color>
+    <color name="line_me_color">#dddddd</color>
+    <color name="text_me_income_tips_color">#43484d</color>
+    <color name="text_me_income_color">#696969</color>
+    <!-- me color end-->
+
+    <color name="text_login_name_color">#333333</color>
+    <color name="section_header_title">#43484D</color>
+    <color name="list_item_title">#666666</color>
+
+    <!--CircleProgressBar-->
+    <color name="circle_text_progress">#666666</color>
+    <color name="circle_round">#666666</color>
+    <color name="circle_round_progress">#E93F33</color>
+
+    <color name="profit_text">#F24340</color>
+
+    <color name="keyboard_text_color">#3c3c3c</color>
+    <color name="keyboard_layout_bg">#efeef4</color>
+    <color name="keyboard_bg">#d8dbdf</color>
+    <color name="keyboard_blackground">#bababa</color>
+    <color name="keyboard_key_text">#3c3c3c</color>
+    <color name="keyboard_safe_text">#999999</color>
+    <color name="keyboard_finish_text">#1a98ff</color>
 </resources>

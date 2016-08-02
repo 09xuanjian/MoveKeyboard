@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/keyboard_abc_delete_press"/>
-    <item android:drawable="@drawable/abc_shift"
+    <item android:drawable="@drawable/bg_keyboard_abc_delete_press" />
+    <item
+        android:drawable="@drawable/ic_keyboard_abc_shift_press"
         android:bottom="12dp"
         android:top="12dp"
         android:left="13dp"
-        android:right="13dp"/>
+        android:right="13dp" />
 
 </layer-list>

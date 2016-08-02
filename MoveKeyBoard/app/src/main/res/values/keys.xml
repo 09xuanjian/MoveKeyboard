@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    
+
     <!-- ! -->
     <string name="char_33">&#033;</string>
     <!-- " -->
@@ -81,9 +81,9 @@
 
     <!-- · -->
     <string name="char_bigPoint">·</string>
-    
-    <string name="strsign1">\\</string>
-	<string name="strsign2">\"</string>
 
-	
+    <string name="strsign1">\\</string>
+    <string name="strsign2">\"</string>
+
+
 </resources>
